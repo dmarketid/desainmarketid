@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>{{ tab_browser_title }}</title>
+{% include "index_composition/bootstrap_link.html" %}
+{% include "index_composition/w3school.html" %}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% block folder_css %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style_index.css' %}">
+	{% endblock folder_css %}
+</head>
+<body>
+	{% include "index_composition/navtop.html" %}
+	{% include "index_composition/navcenter.html" %}
+	{% include "index_composition/navcenter2nd.html" %}
+	{% include "index_composition/navfooter.html" %}
+</body>
+</html>

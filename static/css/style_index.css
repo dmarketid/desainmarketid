@@ -1,0 +1,54 @@
+.imgcss {
+	height: 25px;
+}
+.s1 {
+	margin-right: -52px;
+}
+.s1 img {
+	width:80%;
+}
+.animasi {
+	float: left;
+	position: relative;
+	right: 32px;
+	width: 38%;
+}
+.setup-container {
+	max-width: 100%;
+	padding-right: none;
+	padding-left: none;
+}
+/*disable function*/
+.disabled-function {
+	padding-right: none;
+	padding-left: none;
+}
+.s1 {
+	width: 18%;
+}
+
+
+.container_2nd {
+	width: 100%;
+}
+.s2 {
+	width: 20%;
+}
+
+.bg-position {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+
+/*footer*/
+.stylec {
+	background-color: #343a40 !important;
+}
+.footer-list {
+	text-align: center;
+}
+.lbf, .lpf {
+	font-size: 13px;
+}
